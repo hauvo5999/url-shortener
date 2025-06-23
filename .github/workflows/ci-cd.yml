@@ -58,7 +58,7 @@ jobs:
         
     - name: Build Docker image
       run: |
-        docker build -t url-shortener:${{ github.sha }} .
+        docker build -t url-shortener:${{ github.sha }} -f docker/Dockerfile .
         docker tag url-shortener:${{ github.sha }} url-shortener:latest
         
     - name: Log in to Docker Hub
