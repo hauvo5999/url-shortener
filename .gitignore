@@ -1,0 +1,55 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+main
+url-shortener
+
+# Output of the go coverage tool, build artifacts
+*.coverprofile
+*.cov
+*.log
+coverage.out
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go workspace file
+*.code-workspace
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Docker Compose override files
+docker-compose.override.yml
+
+# GitHub workflow artifacts
+.github/workflows/*.tmp
+
+# Ignore built Docker images
+*.img
+
+# Ignore node_modules if any frontend
+node_modules/ 
